@@ -1,4 +1,4 @@
-import clientPromise from "../../lib/mongodb";
+import clientPromise from "../../../lib/mongodb";
 const ObjectId = require('mongodb').ObjectId;
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { StatusCodes } from 'http-status-codes';
